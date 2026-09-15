@@ -33,6 +33,26 @@ The analysis focuses on identifying trend and seasonal patterns, developing a Wi
 
 Parameter optimisation reduced the model's MSE from approximately 5.16 million to 3.82 million. The analysis also identified remaining patterns that were not fully captured by the forecasting model.
 
+## Project Visualisations
+
+### Historical Dwelling Approvals
+
+The historical series was examined to identify trend and seasonal patterns before developing the forecasting model.
+
+![Historical dwelling approvals](./images/historical_data.png)
+
+### Actual vs Forecast
+
+The optimised Winters Exponential Smoothing model was evaluated by comparing forecast values with actual observations across the within-sample and out-of-sample periods.
+
+![Actual vs forecast dwelling approvals](./images/actual_vs_forecast.png)
+
+### Forecast Errors
+
+Forecast errors were examined to assess model performance and identify patterns that may not have been fully captured by the model.
+
+![Forecast errors](./images/forecast_errors.png)
+
 ## Project Files
 
 - [View the Excel forecasting model](./Dwelling_Approvals_Forecasting_Model.xlsx)
